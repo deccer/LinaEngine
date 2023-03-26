@@ -52,7 +52,7 @@ set (LINACOMMON_SOURCES
 	src/Memory/Memory.cpp
 	
 	#src/Utility/FileUtility.cpp
-	src/Utility/StringID.cpp
+	src/Utility/StringId.cpp
 	
 	# ECS 
 	src/ECS/SystemList.cpp
@@ -146,7 +146,7 @@ set(LINACOMMON_HEADERS
 	include/Resources/ResourceHandle.hpp
 	
 	#include/Utility/FileUtility.hpp
-	include/Utility/StringID.hpp
+	include/Utility/StringId.hpp
 )
 
 #--------------------------------------------------------------------
@@ -177,7 +177,7 @@ target_precompile_headers(${PROJECT_NAME}
 	include/ECS/Component.hpp
 	include/ECS/System.hpp
 	include/ECS/SystemList.hpp
-	include/Utility/StringID.hpp
+	include/Utility/StringId.hpp
 )
 #--------------------------------------------------------------------
 # Config & Options & Compile Definitions
